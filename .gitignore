@@ -1,0 +1,32 @@
+# Local environments and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python caches and local tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Raw and generated tabular data
+data/raw/*
+!data/raw/README.md
+data/processed/
+
+# Bundled local dependencies; install from requirements.txt instead
+vendor/
+
+# Temporary render and QA artifacts
+reports/pdf_qa/
+reports/docx_qa/
+reports/qa/
+*.log
+*.tmp
+
+# Operating system files
+.DS_Store
+Thumbs.db

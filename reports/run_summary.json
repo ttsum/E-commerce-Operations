@@ -1,0 +1,19 @@
+{
+  "completed_at": "2026-10-02T14:11:33.284916",
+  "summary": {
+    "orders": 99441,
+    "customers": 96096,
+    "sellers": 3086,
+    "sales": 15843553.239999998,
+    "avg_order_value": 159.32616566606924,
+    "delivered_orders": 96478,
+    "late_rate": 0.08112898544715784,
+    "low_review_rate": 0.14643316814123417,
+    "repeat_customer_rate": 0.031187562437562436,
+    "avg_delivery_days": 12.558702304032025,
+    "data_period_start": "2016-09-04T21:15:19",
+    "data_period_end": "2018-10-17T17:30:18"
+  },
+  "pdf": "D:\\2026\\求职\\项目1\\电商数据分析\\reports\\olist_ecommerce_analysis_report.pdf",
+  "manifest": "D:\\2026\\求职\\项目1\\电商数据分析\\data\\processed\\raw_manifest.json"
+}

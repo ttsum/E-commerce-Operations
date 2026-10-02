@@ -1,0 +1,78 @@
+{
+  "tables": [
+    {
+      "table": "olist_customers_dataset",
+      "rows": 99441,
+      "columns": 5,
+      "duplicate_rows": 0,
+      "missing_cells": 0
+    },
+    {
+      "table": "olist_geolocation_dataset",
+      "rows": 1000163,
+      "columns": 5,
+      "duplicate_rows": 261831,
+      "missing_cells": 0
+    },
+    {
+      "table": "olist_order_items_dataset",
+      "rows": 112650,
+      "columns": 7,
+      "duplicate_rows": 0,
+      "missing_cells": 0
+    },
+    {
+      "table": "olist_order_payments_dataset",
+      "rows": 103886,
+      "columns": 5,
+      "duplicate_rows": 0,
+      "missing_cells": 0
+    },
+    {
+      "table": "olist_order_reviews_dataset",
+      "rows": 99224,
+      "columns": 7,
+      "duplicate_rows": 0,
+      "missing_cells": 145903
+    },
+    {
+      "table": "olist_orders_dataset",
+      "rows": 99441,
+      "columns": 8,
+      "duplicate_rows": 0,
+      "missing_cells": 4908
+    },
+    {
+      "table": "olist_products_dataset",
+      "rows": 32951,
+      "columns": 9,
+      "duplicate_rows": 0,
+      "missing_cells": 2448
+    },
+    {
+      "table": "olist_sellers_dataset",
+      "rows": 3095,
+      "columns": 4,
+      "duplicate_rows": 0,
+      "missing_cells": 0
+    },
+    {
+      "table": "product_category_name_translation",
+      "rows": 71,
+      "columns": 2,
+      "duplicate_rows": 0,
+      "missing_cells": 0
+    }
+  ],
+  "logical_checks": {
+    "orders_with_purchase_date": 99441,
+    "orders_with_customer": 99441,
+    "orders_with_item": 98666,
+    "delivered_orders": 96478,
+    "orders_with_late_label": 96476,
+    "orders_with_review_label": 98673,
+    "negative_delivery_days": 0,
+    "negative_order_value": 0,
+    "duplicate_order_ids": 0
+  }
+}

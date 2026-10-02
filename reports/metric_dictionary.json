@@ -1,0 +1,7 @@
+{
+  "sales": "订单级商品金额加运费金额之和",
+  "avg_order_value": "订单销售额除以订单数",
+  "late_rate": "有完整配送日期订单中延迟订单占比",
+  "low_review_rate": "有评价订单中评分小于等于 2 的订单占比",
+  "repeat_customer_rate": "购买次数大于 1 的唯一客户占比"
+}

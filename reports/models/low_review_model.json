@@ -1,0 +1,207 @@
+{
+  "task": "low_review",
+  "target": "low_review",
+  "rows": 98673,
+  "positive_rate": 0.14643316814123417,
+  "split": {
+    "train": 69071,
+    "valid": 14801,
+    "test": 14801
+  },
+  "models": {
+    "logistic_regression": {
+      "metrics": {
+        "roc_auc": 0.6014769043949373,
+        "pr_auc": 0.20957310421231473,
+        "precision": 0.15974941268598278,
+        "recall": 0.37661538461538463,
+        "f1": 0.22434017595307917,
+        "threshold": 0.5399999999999998,
+        "confusion_matrix": [
+          [
+            9957,
+            3219
+          ],
+          [
+            1013,
+            612
+          ]
+        ]
+      },
+      "top_features": [
+        {
+          "feature": "seller_state_unknown",
+          "importance": 4.295739902394387,
+          "direction": 4.295739902394387
+        },
+        {
+          "feature": "primary_category_cds_dvds_musicals",
+          "importance": 1.2590383984359974,
+          "direction": -1.2590383984359974
+        },
+        {
+          "feature": "seller_state_PA",
+          "importance": 1.1474510508847005,
+          "direction": -1.1474510508847005
+        },
+        {
+          "feature": "seller_state_AC",
+          "importance": 1.1319368146953326,
+          "direction": 1.1319368146953326
+        },
+        {
+          "feature": "primary_category_food_drink",
+          "importance": 0.967342228947105,
+          "direction": -0.967342228947105
+        },
+        {
+          "feature": "primary_category_flowers",
+          "importance": 0.9641863218190694,
+          "direction": -0.9641863218190694
+        },
+        {
+          "feature": "primary_category_fashion_male_clothing",
+          "importance": 0.9401450962912655,
+          "direction": 0.9401450962912655
+        },
+        {
+          "feature": "seller_state_MS",
+          "importance": 0.9289220430053678,
+          "direction": -0.9289220430053678
+        },
+        {
+          "feature": "payment_type_unknown",
+          "importance": 0.8490942186866302,
+          "direction": 0.8490942186866302
+        },
+        {
+          "feature": "primary_category_security_and_services",
+          "importance": 0.7626119805085125,
+          "direction": 0.7626119805085125
+        },
+        {
+          "feature": "seller_state_MT",
+          "importance": 0.7464891121597704,
+          "direction": -0.7464891121597704
+        },
+        {
+          "feature": "primary_category_diapers_and_hygiene",
+          "importance": 0.6705978842685282,
+          "direction": 0.6705978842685282
+        },
+        {
+          "feature": "primary_category_audio",
+          "importance": 0.616894939425123,
+          "direction": 0.616894939425123
+        },
+        {
+          "feature": "customer_state_RR",
+          "importance": 0.6129084172657548,
+          "direction": 0.6129084172657548
+        },
+        {
+          "feature": "customer_state_AL",
+          "importance": 0.6093183626409502,
+          "direction": 0.6093183626409502
+        }
+      ]
+    },
+    "random_forest": {
+      "metrics": {
+        "roc_auc": 0.5943047265424315,
+        "pr_auc": 0.2130858418763148,
+        "precision": 0.16996507566938301,
+        "recall": 0.35938461538461536,
+        "f1": 0.23078442995455445,
+        "threshold": 0.5199999999999998,
+        "confusion_matrix": [
+          [
+            10324,
+            2852
+          ],
+          [
+            1041,
+            584
+          ]
+        ]
+      },
+      "top_features": [
+        {
+          "feature": "freight_value",
+          "importance": 0.14504130968283047,
+          "direction": 0.0
+        },
+        {
+          "feature": "seller_prev_late_rate",
+          "importance": 0.10153962039941021,
+          "direction": 0.0
+        },
+        {
+          "feature": "item_count",
+          "importance": 0.09796209475382903,
+          "direction": 0.0
+        },
+        {
+          "feature": "item_value",
+          "importance": 0.08676479572898996,
+          "direction": 0.0
+        },
+        {
+          "feature": "product_count",
+          "importance": 0.06740122508330718,
+          "direction": 0.0
+        },
+        {
+          "feature": "seller_history_orders",
+          "importance": 0.05957810529778411,
+          "direction": 0.0
+        },
+        {
+          "feature": "customer_state_RJ",
+          "importance": 0.05273819082156904,
+          "direction": 0.0
+        },
+        {
+          "feature": "seller_count",
+          "importance": 0.05141672126985181,
+          "direction": 0.0
+        },
+        {
+          "feature": "purchase_hour",
+          "importance": 0.031160637371609144,
+          "direction": 0.0
+        },
+        {
+          "feature": "customer_state_SP",
+          "importance": 0.025637322651311988,
+          "direction": 0.0
+        },
+        {
+          "feature": "seller_state_unknown",
+          "importance": 0.025477322454500517,
+          "direction": 0.0
+        },
+        {
+          "feature": "payment_installments",
+          "importance": 0.022735961255827216,
+          "direction": 0.0
+        },
+        {
+          "feature": "primary_category_unknown",
+          "importance": 0.02157669704204904,
+          "direction": 0.0
+        },
+        {
+          "feature": "seller_state_SP",
+          "importance": 0.010187893293607487,
+          "direction": 0.0
+        },
+        {
+          "feature": "customer_state_MG",
+          "importance": 0.005945785765447783,
+          "direction": 0.0
+        }
+      ]
+    }
+  }
+}

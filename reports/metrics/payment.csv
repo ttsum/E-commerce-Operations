@@ -1,0 +1,7 @@
+﻿payment_type,order_count,payment_value,avg_installments
+boleto,19784,2869361.27,1.0
+credit_card,75387,12561997.58,3.529719978245586
+debit_card,1527,217939.79,1.0
+not_defined,3,0.0,1.0
+unknown,1,143.46,0.0
+voucher,2739,359573.48,1.4611171960569551

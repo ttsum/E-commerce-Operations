@@ -1,0 +1,207 @@
+{
+  "task": "late_delivery",
+  "target": "late_delivery",
+  "rows": 96476,
+  "positive_rate": 0.08112898544715784,
+  "split": {
+    "train": 67533,
+    "valid": 14471,
+    "test": 14472
+  },
+  "models": {
+    "logistic_regression": {
+      "metrics": {
+        "roc_auc": 0.5090974036743106,
+        "pr_auc": 0.06908568268510917,
+        "precision": 0.06268393172454385,
+        "recall": 0.2225705329153605,
+        "f1": 0.09781859931113664,
+        "threshold": 0.5999999999999999,
+        "confusion_matrix": [
+          [
+            10330,
+            3185
+          ],
+          [
+            744,
+            213
+          ]
+        ]
+      },
+      "top_features": [
+        {
+          "feature": "payment_type_unknown",
+          "importance": 1.8189790001477346,
+          "direction": 1.8189790001477346
+        },
+        {
+          "feature": "seller_state_MA",
+          "importance": 1.4976320191547843,
+          "direction": 1.4976320191547843
+        },
+        {
+          "feature": "seller_state_RO",
+          "importance": 1.265972811679388,
+          "direction": -1.265972811679388
+        },
+        {
+          "feature": "primary_category_art",
+          "importance": 1.2536553096730405,
+          "direction": -1.2536553096730405
+        },
+        {
+          "feature": "customer_state_AL",
+          "importance": 1.237175604965433,
+          "direction": 1.237175604965433
+        },
+        {
+          "feature": "primary_category_cds_dvds_musicals",
+          "importance": 1.1287651989052998,
+          "direction": -1.1287651989052998
+        },
+        {
+          "feature": "customer_state_RO",
+          "importance": 1.082801107106492,
+          "direction": -1.082801107106492
+        },
+        {
+          "feature": "customer_state_AM",
+          "importance": 0.9533597169715293,
+          "direction": -0.9533597169715293
+        },
+        {
+          "feature": "primary_category_la_cuisine",
+          "importance": 0.8680542099589056,
+          "direction": -0.8680542099589056
+        },
+        {
+          "feature": "primary_category_home_comfort_2",
+          "importance": 0.8601875344153168,
+          "direction": 0.8601875344153168
+        },
+        {
+          "feature": "customer_state_AC",
+          "importance": 0.8100041988053851,
+          "direction": -0.8100041988053851
+        },
+        {
+          "feature": "customer_state_MA",
+          "importance": 0.7920321099745194,
+          "direction": 0.7920321099745194
+        },
+        {
+          "feature": "seller_state_PA",
+          "importance": 0.754051145386403,
+          "direction": 0.754051145386403
+        },
+        {
+          "feature": "seller_state_PI",
+          "importance": 0.7514493395098489,
+          "direction": -0.7514493395098489
+        },
+        {
+          "feature": "seller_state_SE",
+          "importance": 0.7451228281900664,
+          "direction": -0.7451228281900664
+        }
+      ]
+    },
+    "random_forest": {
+      "metrics": {
+        "roc_auc": 0.4528002672057171,
+        "pr_auc": 0.057770658533034404,
+        "precision": 0.053106744556558685,
+        "recall": 0.1044932079414838,
+        "f1": 0.0704225352112676,
+        "threshold": 0.6199999999999999,
+        "confusion_matrix": [
+          [
+            11732,
+            1783
+          ],
+          [
+            857,
+            100
+          ]
+        ]
+      },
+      "top_features": [
+        {
+          "feature": "seller_prev_late_rate",
+          "importance": 0.22422910686592679,
+          "direction": 0.0
+        },
+        {
+          "feature": "freight_value",
+          "importance": 0.11634735173396993,
+          "direction": 0.0
+        },
+        {
+          "feature": "customer_state_SP",
+          "importance": 0.09412647440853479,
+          "direction": 0.0
+        },
+        {
+          "feature": "seller_history_orders",
+          "importance": 0.07438962763910179,
+          "direction": 0.0
+        },
+        {
+          "feature": "customer_state_RJ",
+          "importance": 0.06235734531063194,
+          "direction": 0.0
+        },
+        {
+          "feature": "item_value",
+          "importance": 0.05334348537915233,
+          "direction": 0.0
+        },
+        {
+          "feature": "purchase_hour",
+          "importance": 0.034172587390140306,
+          "direction": 0.0
+        },
+        {
+          "feature": "customer_state_MG",
+          "importance": 0.024132091129229455,
+          "direction": 0.0
+        },
+        {
+          "feature": "payment_installments",
+          "importance": 0.021151729044412104,
+          "direction": 0.0
+        },
+        {
+          "feature": "seller_state_SP",
+          "importance": 0.01801489512704605,
+          "direction": 0.0
+        },
+        {
+          "feature": "customer_state_PR",
+          "importance": 0.01371949310053663,
+          "direction": 0.0
+        },
+        {
+          "feature": "seller_state_RJ",
+          "importance": 0.010138983906062063,
+          "direction": 0.0
+        },
+        {
+          "feature": "seller_state_MG",
+          "importance": 0.009743961706708711,
+          "direction": 0.0
+        },
+        {
+          "feature": "item_count",
+          "importance": 0.009486913082118346,
+          "direction": 0.0
+        },
+        {
+          "feature": "seller_count",
+          "importance": 0.009271687959226031,
+          "direction": 0.0
+        }
+      ]
+    }
+  }
+}
